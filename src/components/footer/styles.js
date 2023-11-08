@@ -32,6 +32,9 @@ a {
     align-items: center;
     justify-content: center;
     gap: 15px;
+    a {
+    font-size: 20px;
+    }
 }
 `
 
@@ -51,8 +54,8 @@ img {
 @media (max-width: 768px) {
   
     img {
-    height: 90px;
-    width: 90px;
+    height: 60px;
+    width: 60px;
     }
 }
 `

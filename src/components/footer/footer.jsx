@@ -1,5 +1,8 @@
 import React from "react";
 import { ConteinerFooter, FooterImg, FooterInfo } from "./styles";
+import logotwiter from './imgredes/img-logo-twitter.png';
+import logoface from './imgredes/img-logo-face.png';
+import logoins from './imgredes/img-logo-ins.png';
 
 export const Footer=()=>{
     return(
@@ -17,9 +20,9 @@ export const Footer=()=>{
             </FooterInfo>
             <FooterImg>
             
-                <img src="./src/assets/img-logo-ins.png" alt="Logo Instagram" />
-                <img src="./src/assets/img-logo-twitter.png" alt="Logo Twitter" />
-                <img src="./src/assets/img-logo-face.png" alt="Logo Facebook" />
+                <img src={logoins} alt="Logo Instagram" />
+                <img src= {logotwiter} alt="Logo Twitter" />
+                <img src={logoface} alt="Logo Facebook" />
             </FooterImg>
         </ConteinerFooter>
     )
