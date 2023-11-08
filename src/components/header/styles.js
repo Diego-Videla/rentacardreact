@@ -7,9 +7,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 padding: 0 40px;
-gap: 15px;
+
 @media (max-width: 768px) {
-    height: 780px;
+    height: auto;
+    gap: 10px;
 }
 
 `
@@ -32,6 +33,7 @@ h2
 }
 @media (max-width: 1050px) {
     width: 100%;
+    
     h1 {
     font-size: 46px;
     width: 100%;

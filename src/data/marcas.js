@@ -1,37 +1,45 @@
+import ford from './imgmarcas/img-logo-ford.jpeg';
+import chevrolet from './imgmarcas/img-logo-chevrolet.jpeg';
+import fiat from './imgmarcas/img-logo-fiat.jpeg';
+import nissan from './imgmarcas/img-logo-nissan.jpeg';
+import peugueot from './imgmarcas/img-logo-peugueot.png';
+import toyota from './imgmarcas/img-logo-toyota.jpg';
+import volkswagen from './imgmarcas/img-logo-volkswagen.jpeg';
+
 export const marcas=[
     {
         id:1,
-        img: "./src/assets/img-logo-chevrolet.jpeg",
+        img: chevrolet,
         nombre:"Chevrolet",
     },
     {
         id:2,
-        img: "./src/assets/img-logo-fiat.jpeg",
+        img: fiat,
         nombre:"Fiat",
     },
     {
         id:3,
-        img: "./src/assets/img-logo-ford.jpeg",
+        img: ford ,
         nombre:"Ford",
     },
     {
         id:4,
-        img: "./src/assets/img-logo-nissan.jpeg",
+        img: nissan,
         nombre:"Nissan",
     },
     {
         id:5,
-        img: "./src/assets/img-logo-peugueot.png",
+        img: peugueot,
         nombre:"Peugueot",
     },
     {
         id:6,
-        img: "./src/assets/img-logo-toyota.jpg",
+        img: toyota,
         nombre:"Toyota",
     },
     {
         id:7,
-        img: "./src/assets/img-logo-volkswagen.jpeg",
+        img: volkswagen,
         nombre:"Volkswagen",
     },
 ]

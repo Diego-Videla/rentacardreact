@@ -1,7 +1,7 @@
 import React from "react";
 import { LinksContainer, NavbarContainer } from "./styles";
-import img from './img-logo-empresa.png';
-import imgcarrito from './img-carrito.jpg';
+import img from './img/img-logo-empresa.png';
+import imgcarrito from './img/img-carrito.jpg';
 
 
 export const Navbar=()=>{
