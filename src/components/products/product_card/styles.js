@@ -38,6 +38,7 @@ p {
 }
 @media (max-width: 768px) {
     flex-direction: column;
+    justify-content: center;
     gap:5px;
     p {
     font-size: 20px;
@@ -56,7 +57,7 @@ p {
 }
 @media (max-width: 768px) {
     flex-direction: column;
-    gap: 5px;
+    justify-content: center;
     gap:5px;
     p {
     font-size: 20px;

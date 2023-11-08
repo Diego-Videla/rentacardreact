@@ -1,5 +1,6 @@
 import React from "react"
 import { HeaderContainer, ImgContainer,  InfoContainer,  } from "./styles"
+import img from './img-header.jpeg';
 
 export const Header =()=>{
     return(
@@ -10,7 +11,7 @@ export const Header =()=>{
                 <button>Contactanos</button>
             </InfoContainer>
             <ImgContainer>
-               <img src="./src/assets/img-header.jpeg "alt='Foto Portada' />
+               <img src= {img} alt='Foto Portada' />
             </ImgContainer>
         </HeaderContainer>
 
