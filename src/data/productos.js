@@ -1,3 +1,21 @@
+import fiat1 from './imgproductos/img-autofiat1.jpeg';
+import fiat2 from './imgproductos/img-autofiat2.jpeg';
+import fiat3 from './imgproductos/img-autofiat3.jpeg';
+import fiat4 from './imgproductos/img-autofiat4.jpeg';
+import ford1 from './imgproductos/img-autoford1.jpeg';
+import ford2 from './imgproductos/img-autoford2.jpeg';
+import ford3 from './imgproductos/img-autoford3.jpeg';
+import ford4 from './imgproductos/img-autoford4.jpeg';
+import nissan1 from './imgproductos/img-autonissan1.jpeg';
+import peugueot1 from './imgproductos/img-autopeugueot1.jpeg';
+import peugueot2 from './imgproductos/img-autopeugueot2.jpg';
+import toyota1 from './imgproductos/img-autotoyota1.jpeg';
+import toyota2 from './imgproductos/img-autotoyota2.jpg';
+import volkswagen1 from './imgproductos/img-autovolkswagen1.jpeg';
+import chevrolet1 from './imgproductos/img-chevrolet1.jpeg';
+import chevrolet2 from './imgproductos/img-chevrolet2.jpeg';
+import chevrolet3 from './imgproductos/img-chevrolet3.jpg';
+
 export const productos=[
     {
         id:1,
@@ -6,7 +24,7 @@ export const productos=[
         año:2019,
         km: 25000, 
         precio: 10800,
-        imagen:"./src/assets/img-autoford1.jpeg"
+        imagen:ford1
     },
     {
         id:2,
@@ -15,7 +33,7 @@ export const productos=[
         año:2022,
         km: 10300, 
         precio: 12000,
-        imagen:"./src/assets/img-autoford2.jpeg"
+        imagen:ford2
     },
     {
         id:3,
@@ -24,7 +42,7 @@ export const productos=[
         año:2017,
         km: 35000, 
         precio: 25000,
-        imagen:"./src/assets/img-autoford3.jpeg"
+        imagen:ford3
     },
     {
         id:4,
@@ -33,7 +51,7 @@ export const productos=[
         año:2022,
         km: 10000, 
         precio: 19000,
-        imagen:"./src/assets/img-autoford4.jpeg"
+        imagen:ford4
     },
     {
         id:5,
@@ -42,7 +60,7 @@ export const productos=[
         año:2015,
         km: 36000, 
         precio: 12000,
-        imagen:"./src/assets/img-autofiat1.jpeg"
+        imagen:fiat1
     },
     {
         id:6,
@@ -51,7 +69,7 @@ export const productos=[
         año:2016,
         km: 45000, 
         precio: 9500,
-        imagen:"./src/assets/img-autofiat2.jpeg"
+        imagen:fiat2
     },
     {
         id:7,
@@ -60,7 +78,7 @@ export const productos=[
         año:2023,
         km: 4500, 
         precio: 9500,
-        imagen:"./src/assets/img-autofiat3.jpeg"
+        imagen:fiat3
     },
 
     {
@@ -70,7 +88,7 @@ export const productos=[
         año:2018,
         km: 72000, 
         precio: 12500,
-        imagen:"./src/assets/img-autofiat4.jpeg"
+        imagen:fiat4
     },
     {
         id:10,
@@ -79,7 +97,7 @@ export const productos=[
         año:2021,
         km: 34000, 
         precio: 13000,
-        imagen:"./src/assets/img-chevrolet1.jpeg"
+        imagen:chevrolet1
     },
     {
         id:11,
@@ -88,7 +106,7 @@ export const productos=[
         año:2020,
         km: 24000, 
         precio: 18000,
-        imagen:"./src/assets/img-chevrolet2.jpeg"
+        imagen:chevrolet2
     },
     {
         id:12,
@@ -97,7 +115,7 @@ export const productos=[
         año:2015,
         km: 75000, 
         precio: 15000,
-        imagen:"./src/assets/img-chevrolet3.jpg"
+        imagen:chevrolet3
     },
     {
         id:13,
@@ -106,7 +124,7 @@ export const productos=[
         año:2022,
         km: 26000, 
         precio: 17000,
-        imagen:"./src/assets/img-autopeugueot1.jpeg"
+        imagen:peugueot1
     },
     {
         id:14,
@@ -115,7 +133,7 @@ export const productos=[
         año:2023,
         km: 2500, 
         precio: 25000,
-        imagen:"./src/assets/img-autopeugueot2.jpg"
+        imagen:peugueot2
     },
     {
         id:15,
@@ -124,7 +142,7 @@ export const productos=[
         año:2017,
         km: 45000, 
         precio: 20000,
-        imagen:"./src/assets/img-autotoyota1.jpeg"
+        imagen:toyota1
     },
     {
         id:16,
@@ -133,7 +151,7 @@ export const productos=[
         año:2020,
         km: 46000, 
         precio: 35000,
-        imagen:"./src/assets/img-autotoyota2.jpg"
+        imagen:toyota2
     },
     {
         id:17,
@@ -142,7 +160,7 @@ export const productos=[
         año:2019,
         km: 74000, 
         precio: 29000,
-        imagen:"./src/assets/img-autovolkswagen1.jpeg"
+        imagen:volkswagen1
     },
     {
         id:18,
@@ -151,7 +169,7 @@ export const productos=[
         año:2022,
         km: 24000, 
         precio: 12000,
-        imagen:"./src/assets/img-autonissan1.jpeg"
+        imagen:nissan1
     },
 
 ]

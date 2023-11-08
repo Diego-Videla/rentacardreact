@@ -18,7 +18,7 @@ img {
 }
 @media (max-width: 768px) {
     width: 350px;
-    padding: 10px 0;
+    height: 650px;
     img {
     height: 170px;
     width: 300px;
@@ -39,6 +39,9 @@ p {
 @media (max-width: 768px) {
     flex-direction: column;
     gap:5px;
+    p {
+    font-size: 20px;
+}
 }
 `
 export const CardDescription= styled.div`
@@ -52,6 +55,9 @@ p {
     font-weight: 500;
 }
 @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 5px;
+    gap:5px;
     p {
     font-size: 20px;
 }
