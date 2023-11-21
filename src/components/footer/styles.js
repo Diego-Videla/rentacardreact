@@ -15,10 +15,9 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 45px;
-margin-top: 60px;
 
 a {
-    font-size: 40px;
+    font-size: 25px;
     color: white;
 }
 @media (max-width: 1050px) {
@@ -46,8 +45,8 @@ gap: 60px;
 padding: 60px 0;
 
 img {
-    height: 130px;
-    width: 130px;
+    height: 60px;
+    width: 60px;
     border-radius: 20px;
 }
 

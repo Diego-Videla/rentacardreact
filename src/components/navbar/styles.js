@@ -21,12 +21,15 @@ img {
     }
 }
 `
-export const LinksContainer= styled.div`
+export const LinksContainer= styled.ul`
 display: flex;
 align-items: center;
 justify-content: center;
 gap:30px;
-a {
+color: white;
+font-size: 28px;
+
+/*a {
     color: white;
     font-size: 28px;
     font-weight: 600;
@@ -35,5 +38,5 @@ a {
     a{
         font-size: 20px;
     }
-}
+}*/
 `

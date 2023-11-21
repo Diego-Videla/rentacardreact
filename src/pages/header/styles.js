@@ -1,6 +1,14 @@
 import styled from "styled-components";
 import React from "react";
 
+export const Home= styled.div`
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-bottom: 180px;
+
+`
 export const HeaderContainer=styled.div`
 height: 520px;
 display: flex;
