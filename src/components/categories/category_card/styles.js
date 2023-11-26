@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-background-color: gray;
+background-color: #00b4d8;
 height: 190px;
 width: 200px;
 border-radius: 10px;
@@ -17,5 +17,6 @@ img {
 }
 h3{
     font-size: 20px;
+    color: #f1faee;
 }
 `

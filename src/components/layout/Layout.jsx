@@ -8,7 +8,6 @@ const LayoutContainerStyled = styled.div`
   min-height: 100vh;
   height: auto;
   width: 100%;
-
   margin: 0 auto;
 
   & p {

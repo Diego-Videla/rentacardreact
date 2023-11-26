@@ -18,7 +18,7 @@ gap: 45px;
 
 a {
     font-size: 25px;
-    color: white;
+    color: #03045e;
 }
 @media (max-width: 1050px) {
     a {
@@ -51,10 +51,6 @@ img {
 }
 
 @media (max-width: 768px) {
-  
-    img {
-    height: 60px;
-    width: 60px;
-    }
+    gap: 30px;
 }
 `

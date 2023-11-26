@@ -3,7 +3,7 @@ import React from "react";
 
 export const NavbarContainer=styled.div`
 height: 60px;
-background-color: gray;
+background-color: aqua;
 display:  flex;
 justify-content:space-between;
 align-items: center;
@@ -16,27 +16,59 @@ img {
 @media (max-width: 768px) {
     padding: 1rem 2rem ;
     img {
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
     }
 }
+.burguer{
+    @media (min-width: 768px) {
+        display: none;
+    }
+}
+/*.links{
+    position: absolute;
+    top:-700px;
+    left: -2000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    a{
+        display: block;
+    }
+     @media (min-width: 768px) {
+        position: initial;
+        margin: 0;
+        a{
+            
+            font-size: 1rem;
+            display: inline;
+        }
+    }
+}
+.links.active{
+width: 100%;
+display: block;
+position: absolute;
+margin:auto;
+top: 30%;
+left: 0;
+right: 0;
+text-align: center;
+
+}*/
+
 `
+
 export const LinksContainer= styled.ul`
 display: flex;
-align-items: center;
-justify-content: center;
-gap:30px;
+width: 70%;
+justify-content: right;
+gap:40px;
 color: white;
-font-size: 28px;
 
-/*a {
-    color: white;
-    font-size: 28px;
-    font-weight: 600;
-}
-@media (max-width: 768px) {
-    a{
-        font-size: 20px;
-    }
-}*/
+`
+export const ButtonConteiner= styled.div`
+display: flex;
+width: 60%;
+justify-content: right;
 `

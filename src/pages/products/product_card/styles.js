@@ -7,10 +7,13 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 10px;
-background-color:gray;
+background-color:#00b4d8;
 height: 550px;
 width: 400px;
 border-radius: 10px;
+p{
+    color: #f1faee;
+}
 img {
     height: 200px;
     width: 350px;
@@ -73,7 +76,7 @@ gap: 10px;
 p {
     font-size: 32px;
     font-weight: 700;
-    color: #3772ff;
+    color: #03045e;
 }
 
 `

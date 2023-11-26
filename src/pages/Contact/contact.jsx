@@ -1,5 +1,5 @@
 import React from "react";
-import { Conteiner, ConteinerContact, Correo, InfoContact, InfoMensaje, Mensaje, Nombre, Telefono } from "./styles";
+import { Conteiner, ConteinerContact, Correo, InfoContact, InfoContactoDatos, InfoContactoTitulo, InfoMensaje, Mensaje, Nombre, Telefono } from "./styles";
 import icono from './icono-contacto.png';
 
 export const Contact =() =>{
@@ -8,9 +8,17 @@ export const Contact =() =>{
             <h2>Envia tu Mensaje</h2>
         <ConteinerContact>
             <InfoContact>
-                <div>
+                <InfoContactoTitulo>
                     <img src={icono} alt="icono contacto" />
-                </div>
+                    <h2>INFORMACIÓN DE CONTACTO </h2>
+                </InfoContactoTitulo>
+
+                <InfoContactoDatos>
+                    <p>📧 info.contact@correo.com</p>
+                    <p>💻Renta_Card</p>
+                    <p>📱 2234896512</p>
+
+                </InfoContactoDatos>
             </InfoContact>
             
             <InfoMensaje>

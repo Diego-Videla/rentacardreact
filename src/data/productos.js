@@ -1,49 +1,17 @@
 import fiat1 from './imgproductos/img-autofiat1.jpeg';
 import fiat2 from './imgproductos/img-autofiat2.jpeg';
 import fiat3 from './imgproductos/img-autofiat3.jpeg';
-import fiat4 from './imgproductos/img-autofiat4.jpeg';
-import ford1 from './imgproductos/img-autoford1.jpeg';
-import ford2 from './imgproductos/img-autoford2.jpeg';
-import ford3 from './imgproductos/img-autoford3.jpeg';
 import ford4 from './imgproductos/img-autoford4.jpeg';
 import nissan1 from './imgproductos/img-autonissan1.jpeg';
 import peugueot1 from './imgproductos/img-autopeugueot1.jpeg';
 import peugueot2 from './imgproductos/img-autopeugueot2.jpg';
 import toyota1 from './imgproductos/img-autotoyota1.jpeg';
 import toyota2 from './imgproductos/img-autotoyota2.jpg';
-import volkswagen1 from './imgproductos/img-autovolkswagen1.jpeg';
 import chevrolet1 from './imgproductos/img-chevrolet1.jpeg';
 import chevrolet2 from './imgproductos/img-chevrolet2.jpeg';
 import chevrolet3 from './imgproductos/img-chevrolet3.jpg';
 
 export const productos=[
-    {
-        id:1,
-        marca: "Ford",
-        Modelo:"Ecosport",
-        año:2019,
-        km: 25000, 
-        precio: 10800,
-        imagen:ford1
-    },
-    {
-        id:2,
-        marca:"Ford",
-        Modelo:"Ka",
-        año:2022,
-        km: 10300, 
-        precio: 12000,
-        imagen:ford2
-    },
-    {
-        id:3,
-        marca:"Ford",
-        Modelo:"Ranger",
-        año:2017,
-        km: 35000, 
-        precio: 25000,
-        imagen:ford3
-    },
     {
         id:4,
         marca:"Ford",
@@ -79,16 +47,6 @@ export const productos=[
         km: 4500, 
         precio: 9500,
         imagen:fiat3
-    },
-
-    {
-        id:9,
-        marca:"Fiat",
-        Modelo:"Strada",
-        año:2018,
-        km: 72000, 
-        precio: 12500,
-        imagen:fiat4
     },
     {
         id:10,
@@ -152,15 +110,6 @@ export const productos=[
         km: 46000, 
         precio: 35000,
         imagen:toyota2
-    },
-    {
-        id:17,
-        marca:"Volkswagen",
-        Modelo:"T-Cross",
-        año:2019,
-        km: 74000, 
-        precio: 29000,
-        imagen:volkswagen1
     },
     {
         id:18,
