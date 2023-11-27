@@ -21,7 +21,10 @@ img {
 }
 @media (max-width: 768px) {
     width: 350px;
-    height: 650px;
+    height: 520px;
+    p{
+        height: 10px;
+    }
     img {
     height: 170px;
     width: 300px;
@@ -87,6 +90,13 @@ width: 70%;
 align-items: center;
 justify-content:space-between;
 gap: 10px;
+@media (max-width: 768px) {
+    button{
+    margin-top: 28px;
+}
+margin-bottom: 5px;
+}
+
 p {
     font-size: 32px;
     font-weight: 700;
