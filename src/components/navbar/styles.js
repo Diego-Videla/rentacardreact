@@ -8,7 +8,7 @@ display:  flex;
 justify-content:space-between;
 align-items: center;
 padding: 1rem 4rem;
-max-width:1680px;
+/*max-width:1680px;*/
 img {
     height: 60px;
     width: 60px;

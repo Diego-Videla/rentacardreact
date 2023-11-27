@@ -14,9 +14,9 @@ export const Navbar=()=>{
                 <img src= {img} alt="Logo Empresa" />
             </div>
             <LinksContainer className= {`links ${menuValue.menu ? 'active' : '' }`} >
-                < NavLink onClick={menuValue.handleClick} to='/' > Nosotros</NavLink>
-                < NavLink onClick={menuValue.handleClick}  to='/products'  >Productos</NavLink>
-                < NavLink onClick={menuValue.handleClick}  to='/contact' >Contacto</NavLink>
+                < NavLink onClick={menuValue.closemenu} to='/' > Nosotros</NavLink>
+                < NavLink onClick={menuValue.closemenu}  to='/products'  >Productos</NavLink>
+                < NavLink onClick={menuValue.closemenu}  to='/contact' >Contacto</NavLink>
             </LinksContainer>
             <ButtonConteiner className="burguer">
                 <BurguerButton onClick={()=>menuValue.handleClick}  />

@@ -10,8 +10,11 @@ export const ContextMenu=({children})=>{
     const handleClick=()=>{
        setMenu(!menu)
     }
+    const closemenu=()=>{
+      setMenu(false)
+    }
     return (
-       <MenuContext.Provider value={{menu,handleClick}}>
+       <MenuContext.Provider value={{menu,handleClick,closemenu}}>
           {children}
         </MenuContext.Provider>
     )
