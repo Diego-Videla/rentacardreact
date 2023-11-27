@@ -8,7 +8,6 @@ display:  flex;
 justify-content:space-between;
 align-items: center;
 padding: 1rem 4rem;
-/*max-width:1680px;*/
 img {
     height: 60px;
     width: 60px;
@@ -77,7 +76,6 @@ width: 70%;
 justify-content: right;
 gap:40px;
 color: white;
-
 `
 export const ButtonConteiner= styled.div`
 display: flex;
@@ -100,5 +98,6 @@ transition: all .6s ease;
     width:90%;
     height:100%   
 }
+
 `
 
