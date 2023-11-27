@@ -7,7 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 gap: 15px;
-
+max-width:1680px;
 `
 
 export const FooterInfo= styled.div`
@@ -15,7 +15,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 gap: 45px;
-
+max-width:1680px;
 a {
     font-size: 25px;
     color: #03045e;
@@ -43,7 +43,7 @@ align-items: center;
 justify-content: center;
 gap: 60px;
 padding: 60px 0;
-
+max-width:1680px;
 img {
     height: 60px;
     width: 60px;

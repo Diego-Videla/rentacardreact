@@ -1,12 +1,19 @@
-import React, {createContext} from "react";
+import React, {createContext, useState} from "react";
 
-const initState= {
-    estado: 'false',
-    handleClick:()=>{},
+export const MenuContext= createContext();
 
-};
-export const Menu= createContext(initState);
 
-const handleClick=()=>{
-    Menu.Provider.estado=!Menu.Provider.estado;
+export const ContextMenu=({children})=>{
+
+    const [menu,setMenu]=useState(false)
+    
+    const handleClick=()=>{
+       setMenu(!menu)
+    }
+    return (
+       <MenuContext.Provider value={{menu,handleClick}}>
+          {children}
+        </MenuContext.Provider>
+    )
+    
 }

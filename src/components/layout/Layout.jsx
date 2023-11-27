@@ -4,6 +4,7 @@ import { Navbar } from '../navbar/navbar';
 import { Footer } from '../footer/footer';
 
 
+
 const LayoutContainerStyled = styled.div`
   min-height: 100vh;
   height: auto;

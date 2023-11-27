@@ -28,6 +28,14 @@ img {
     border-radius: 10px;
     }
 }
+@media (max-width: 550px) {
+    width: 290px;
+    img {
+    height: 150px;
+    width: 280px;
+
+    }
+}
 `
 export const CardInfo =styled.div`
 display: flex;
@@ -45,7 +53,10 @@ p {
     gap:5px;
     p {
     font-size: 20px;
-}
+    }
+    @media (max-width: 768px) {
+        gap: 0;
+    }
 }
 `
 export const CardDescription= styled.div`
@@ -64,7 +75,10 @@ p {
     gap:5px;
     p {
     font-size: 20px;
+    }
 }
+@media (max-width: 768px) {
+        gap: 0;
 }
 `
 export const CardPrecio= styled.div`

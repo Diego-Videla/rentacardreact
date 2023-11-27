@@ -9,6 +9,7 @@ align-items: center;
 justify-content: center;
 gap: 15px;
 margin-bottom: 60px;
+max-width:1680px;
 h2{
     font-size: 40px;
 }
@@ -25,6 +26,7 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 width: 100%;
+max-width:1680px;
 gap: 10px;
   @media (max-width: 1050px) {
         flex-direction: column;
@@ -48,7 +50,7 @@ color: #f1faee;
     height: 450px;
 }
   @media (max-width: 550px) {
-    width: 260px;
+    width: 270px;
 }
 `
 
@@ -61,8 +63,6 @@ gap: 24px;
 height: 500px;
 width: 500px;
 margin: 0 30px;
-/*background-color: skyblue;
-border-radius: 10px;*/
 label{
     font-size: 17px;
     color:#03045e;
@@ -79,6 +79,7 @@ button{
     
 }
 @media (max-width: 550px) {
+    width: 270px;
     input{
         width: 260px;
     }
@@ -147,6 +148,12 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
+
+@media (max-width: 550px) {
+    p{
+        font-size: 19px;
+    }
+   }
 `
 
 

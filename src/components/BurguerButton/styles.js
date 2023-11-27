@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 export const Burguer= styled.div`
 .nav-icon1{
-  width: 55px;
-  height: 45px;
+  width: 50px;
+  height: 35px;
   position: relative;
   margin: 50px auto;
   -webkit-transform: rotate(0deg);
@@ -21,7 +21,7 @@ export const Burguer= styled.div`
 .nav-icon1 span{
   display: block;
   position: absolute;
-  height: 8px;
+  height: 6px;
   width: 100%;
   background: #03045e;
   border-radius: 9px;
@@ -42,11 +42,11 @@ export const Burguer= styled.div`
 }
 
 .nav-icon1 span:nth-child(2) {
-  top: 15px;
+  top: 13px;
 }
 
 .nav-icon1 span:nth-child(3) {
-  top: 30px;
+  top: 26px;
 }
 
 .nav-icon1.open span:nth-child(1) {

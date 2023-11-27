@@ -9,6 +9,7 @@ justify-content: center;
 gap: 10px;
 width: 100%;
 margin-bottom: 70px;
+max-width:1680px;
 h2 {
     font-size: 36px;
     

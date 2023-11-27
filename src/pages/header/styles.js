@@ -7,6 +7,7 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin-bottom: 150px;
+max-width:1680px;
 h1 {
     font-size: 40px;
     padding: 0 30px;
@@ -23,8 +24,9 @@ height: 420px;
 display: flex;
 align-items: center;
 justify-content: center;
-padding: 0 40px;
+padding: 0 10px;
 margin-top: 10px;
+max-width:1680px;
 @media (max-width: 1050px) {
     height: 300px;
 }
@@ -32,6 +34,10 @@ margin-top: 10px;
 @media (max-width: 768px) {
     height: auto;
     gap: 10px;
+}
+@media (max-width: 550px) {
+    width: 300px;
+    padding: 0;
 }
 
 `

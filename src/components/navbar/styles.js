@@ -8,6 +8,7 @@ display:  flex;
 justify-content:space-between;
 align-items: center;
 padding: 1rem 4rem;
+max-width:1680px;
 img {
     height: 60px;
     width: 60px;
@@ -19,19 +20,27 @@ img {
     height: 50px;
     width: 50px;
     }
+    @media (max-width: 550px) {
+    img {
+    height: 40px;
+    width: 40px;
+    }
+}
 }
 .burguer{
     @media (min-width: 768px) {
         display: none;
     }
 }
-/*.links{
+.links{
     position: absolute;
     top:-700px;
     left: -2000px;
+    right:0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    transition: all .5s ease;
     a{
         display: block;
     }
@@ -39,23 +48,26 @@ img {
         position: initial;
         margin: 0;
         a{
-            
             font-size: 1rem;
             display: inline;
         }
     }
 }
 .links.active{
-width: 100%;
+width: 70%;
 display: block;
 position: absolute;
 margin:auto;
-top: 30%;
+top: 20%;
 left: 0;
 right: 0;
 text-align: center;
-
-}*/
+z-index: 1;
+ a{
+    font-size: 24px;
+    margin-top: 10px;
+ }
+}
 
 `
 
@@ -72,3 +84,21 @@ display: flex;
 width: 60%;
 justify-content: right;
 `
+export const BgDiv= styled.div`
+background-color: #03045e;
+position:absolute;
+top:-700px;
+left:-1000px;
+width:100%;
+height:100%;
+
+transition: all .6s ease;
+&.active{
+    border-radius: 0 0 80% 0;
+    top:0;
+    left:0;
+    width:90%;
+    height:100%   
+}
+`
+
