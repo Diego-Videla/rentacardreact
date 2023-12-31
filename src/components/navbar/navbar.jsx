@@ -1,13 +1,15 @@
 import React, { useContext }  from "react";
-import {  BgDiv, ButtonConteiner, LinksContainer, NavbarContainer } from "./styles";
+import {  BgDiv, ButtonConteiner, Items, LinksContainer, NavbarContainer } from "./styles";
 import img from './img/img-logo-empresa.png';
 import imgcarrito from './img/img-carrito.jpg';
 import { NavLink } from "react-router-dom";
 import { BurguerButton } from "../BurguerButton/BurguerButton";
 import { MenuContext } from "../contexto/Menu";
-
+import { CarritoContext } from "../contexto/Carrito";
 export const Navbar=()=>{
     const menuValue= useContext(MenuContext)
+    const {cantItems}= useContext(CarritoContext);
+    const cantidad= cantItems();
     return(
         <NavbarContainer>
             <div>
@@ -24,7 +26,14 @@ export const Navbar=()=>{
             <BgDiv   className={` initial ${menuValue.menu ? 'active' : '' } `} >
 
             </BgDiv>
-            <img src= {imgcarrito} alt="" />
+            <NavLink to='/carrito' >
+            <div>
+             <img src= {imgcarrito} alt="" />
+             <Items>
+             <p>{cantidad} </p>
+             </Items>
+             </div>  
+            </NavLink>
         </NavbarContainer>
     )
 }

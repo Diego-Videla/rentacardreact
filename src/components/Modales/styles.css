@@ -1,0 +1,36 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top:0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #caf0f8;
+    opacity: 0.9;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.modal.is-open{
+    display: flex;
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+    width: 80%;
+    height: 160px;
+    border-radius: 10px;
+    
+    opacity:1;
+    button{
+        font-weight: 700;
+        color: #03045e;
+        background-color:#00b4d8;
+    }
+   
+}

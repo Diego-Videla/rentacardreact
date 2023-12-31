@@ -21,7 +21,7 @@ export const Burguer= styled.div`
 .nav-icon1 span{
   display: block;
   position: absolute;
-  height: 6px;
+  height: 5px;
   width: 100%;
   background: #03045e;
   border-radius: 9px;
@@ -42,11 +42,11 @@ export const Burguer= styled.div`
 }
 
 .nav-icon1 span:nth-child(2) {
-  top: 13px;
+  top: 11px;
 }
 
 .nav-icon1 span:nth-child(3) {
-  top: 26px;
+  top: 22px;
 }
 
 .nav-icon1.open span:nth-child(1) {

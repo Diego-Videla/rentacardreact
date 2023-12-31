@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Routes } from './routes/Routes'
 import { ContextMenu } from './components/contexto/Menu'
+import { ContextCarrito } from './components/contexto/Carrito'
 
 
 
@@ -14,7 +15,9 @@ function App() {
   return (
     <>  
         <ContextMenu>
+        <ContextCarrito>
         <Routes/>
+        </ContextCarrito>
         </ContextMenu>
     </>
   )

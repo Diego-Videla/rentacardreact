@@ -7,6 +7,7 @@ body{
     padding: 0;
     background-color: #caf0f8;
     color: #0077b6;
+    
 }
 :root {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

@@ -104,3 +104,14 @@ p {
 }
 
 `
+export const ButtonModal= styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+`
+export const ConteinerTitulo= styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+`
