@@ -22,7 +22,7 @@ export const Header =()=>{
             </HeaderContainer>
             <ConteinerInfoEmpresa>
                 <h2>Contamos con taller mecánico propio, para realizar un chequeo general de cada vehículo que disponemos para  la venta, para darle mayor tranquilidad tanto al comprador como
-                    a el vendedor. Ademas te ofreceos un servicio postventa, para realizar todos los servis necesarios para el correcto mantenimiento
+                    a el vendedor. Además te ofrecemos un servicio postventa, para realizar todos los servis necesarios para el correcto mantenimiento
                     de su vehículo.
                 </h2>
             </ConteinerInfoEmpresa>
