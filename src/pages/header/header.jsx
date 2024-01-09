@@ -13,7 +13,7 @@ export const Header =()=>{
             <h1>Renta Card</h1>
             <HeaderContainer>
                 <InfoContainer>
-                    <h2>Somos una empresa encargada de buscar el cliente indicado para su auto.Nos encargamos de todo, solo tienes que traer su vehículo, nosotros lo vendemos rápido y al mejor precio, haciendonos cargo de todos los trámites correspondientes.</h2>
+                    <h2>Somos una empresa encargada de buscar el cliente indicado para su auto.Nos encargamos de todo. Solo tiene que traer su vehículo, nosotros se lo vendemos al instante y al mejor precio, haciendonos cargo de todos los trámites correspondientes.</h2>
                     < NavLink className="btncontacto" to='contact'> Contactanos</NavLink>
                 </InfoContainer>
                 <ImgContainer>
@@ -22,7 +22,7 @@ export const Header =()=>{
             </HeaderContainer>
             <ConteinerInfoEmpresa>
                 <h2>Contamos con taller mecánico propio, para realizar un chequeo general de cada vehículo que disponemos para  la venta, para darle mayor tranquilidad tanto al comprador como
-                    a el vendedor. Además te ofrecemos un servicio postventa, para realizar todos los servis necesarios para el correcto mantenimiento
+                    a el vendedor. Además te ofrecemos un servicio postventa para realizar todos los servis necesarios para el correcto mantenimiento
                     de su vehículo.
                 </h2>
             </ConteinerInfoEmpresa>
