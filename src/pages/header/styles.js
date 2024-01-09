@@ -36,7 +36,7 @@ max-width:1680px;
     gap: 10px;
 }
 @media (max-width: 550px) {
-    width: 300px;
+    width: 100%;
     padding: 0;
 }
 
@@ -48,15 +48,25 @@ align-items: center;
 justify-content: center;
 gap: 10px;
 width: 50%;
-
+.btncontacto{
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 8px;
+    text-decoration: none;
+}
 h2 
 {
     font-size: 22px;
     padding: 0 30px;
 }
 @media (max-width: 1050px) {
-    width: 100%;
-    
+    width: 85%;
+    h2{
+        padding: 0;
+    }
+   
 }
 h2 
 {
@@ -87,6 +97,12 @@ img {
 @media (max-width: 1050px) {
     display: none;
 }
+`
+export const ConteinerInfoEmpresa= styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 85%;
 `
 export const ConteinerRecommended= styled.div`
 display: flex;

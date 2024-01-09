@@ -10,7 +10,6 @@ export const ProductWidget=()=>{
         let filtrado=productos;
         if(marca.value.trim().length)
         {
-
             filtrado= filtrado.filter((item)=> (item.marca.toLowerCase())== (marca.value.toLowerCase()));
             setProduc(filtrado);
             estado=true;
@@ -31,9 +30,6 @@ export const ProductWidget=()=>{
         {
             setProduc(productos)
         }
-       
-        
-       
     }
     return(
         <Conteiner>

@@ -15,6 +15,7 @@ export const CarritoWidget=()=>{
     const {precioTotal}= useContext(CarritoContext);
     const[isOpenModal,openModal,CloseModal]=useModal(false);
     const[isOpenModal1,openModal1,CloseModal1]=useModal(false);
+    const[isOpenModal2,openModal2,CloseModal2]=useModal(false);
     const total= precioTotal();
     return(
         <ConteinerCarrito>
@@ -27,7 +28,7 @@ export const CarritoWidget=()=>{
                 <p>Total: ${total} </p>
             </ConteinerPrecio>
             <Conteinerbutton>
-                <ButtonCarrito onClick={openModal} >Borrar Todo</ButtonCarrito>
+                <ButtonCarrito disabled={compras.length===0} onClick={openModal} >Borrar Todo</ButtonCarrito>
                 <Modal isOpen={isOpenModal} CloseModal={CloseModal}>
                         <ConteinerTitulo>
                         <h3>¿Desea vaciar el carrito?</h3>
@@ -43,7 +44,7 @@ export const CarritoWidget=()=>{
                         </ButtonModal>
                 </Modal>
                 
-                <ButtonCarrito onClick={openModal1}>Comprar</ButtonCarrito>
+                <ButtonCarrito disabled={compras.length===0} onClick={openModal1}>Comprar</ButtonCarrito>
                 <Modal isOpen={isOpenModal1} CloseModal={CloseModal1}>
                         <ConteinerTitulo>
                         <h3>¿Desea finalizar la compra?</h3>
@@ -53,9 +54,18 @@ export const CarritoWidget=()=>{
                         {
                         borrarTodo();
                         CloseModal1();
+                        openModal2();
                         }
                         } >Si</button>
                         <button onClick={()=>CloseModal1()}>No</button>
+                        </ButtonModal>
+                </Modal>
+                <Modal isOpen={isOpenModal2} CloseModal={CloseModal2}>
+                        <ConteinerTitulo>
+                        <h3>¡Muchas gracias por su compra!</h3>
+                        </ConteinerTitulo>
+                        <ButtonModal>
+                        <button onClick={()=>CloseModal2()}>Aceptar</button>
                         </ButtonModal>
                 </Modal>
             </Conteinerbutton>

@@ -22,7 +22,7 @@ body{
     -webkit-text-size-adjust: 100%;
   }
   
-  button {
+ button {
     border-radius: 8px;
     border: 1px solid transparent;
     padding: 0.6em 1.2em;

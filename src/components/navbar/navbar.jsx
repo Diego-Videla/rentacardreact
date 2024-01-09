@@ -19,6 +19,7 @@ export const Navbar=()=>{
                 < NavLink onClick={menuValue.closemenu} to='/' > Nosotros</NavLink>
                 < NavLink onClick={menuValue.closemenu}  to='/products'  >Productos</NavLink>
                 < NavLink onClick={menuValue.closemenu}  to='/contact' >Contacto</NavLink>
+                
             </LinksContainer>
             <ButtonConteiner className="burguer">
                 <BurguerButton onClick={()=>menuValue.handleClick}  />

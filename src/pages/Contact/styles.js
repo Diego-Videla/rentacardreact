@@ -1,5 +1,5 @@
+import { color } from "framer-motion";
 import React from "react";
-
 import styled from "styled-components";
 
 export const Conteiner= styled.div`
@@ -10,6 +10,15 @@ justify-content: center;
 gap: 15px;
 margin-bottom: 60px;
 max-width:1680px;
+.botonmodal{
+    font-weight: 700;
+    color: #03045e;
+    background-color:#00b4d8;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
 h2{
     font-size: 40px;
 }
@@ -30,6 +39,7 @@ max-width:1680px;
 gap: 10px;
   @media (max-width: 1050px) {
         flex-direction: column;
+        gap: 50px;
     }
 
 `
@@ -40,14 +50,19 @@ align-items: center;
 justify-content: center;
 width: 450px;
 margin: 0 30px;
-height: 500px;
+height: 650px;
 background-color: #03045e;
 border-radius: 10px;
 color: #f1faee;
+gap: 10px;
+  @media (max-width: 1050px) {
+        height: 500px;
+        gap: 0;
+        padding: 0;
+    }
   @media (max-width: 768px) {
     margin: 0 0;
     width: 400px;
-    height: 450px;
 }
   @media (max-width: 550px) {
     width: 270px;
@@ -60,9 +75,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap: 24px;
-height: 500px;
+height: 650px;
 width: 500px;
 margin: 0 30px;
+border-style: solid;
+border-radius: 10px;
 label{
     font-size: 17px;
     color:#03045e;
@@ -78,13 +95,28 @@ button{
     width: 120px;
     
 }
-@media (max-width: 550px) {
-    width: 270px;
-    input{
-        width: 260px;
+@media (max-width: 1050px) {
+       width: 450px;
+       height: 620px;
+    }
+@media (max-width: 768px) {
+    width: 400px;
+    input {
+        width: 300px;
     }
     textarea{
-        width: 260px;
+    width: 300px;
+    }
+    }
+@media (max-width: 550px) {
+    width: 270px;
+    height: 610px;
+    margin: 0;
+    input{
+        width: 220px;
+    }
+    textarea{
+        width: 220px;
     }
     }
     button{
@@ -121,7 +153,7 @@ export const InfoContactoTitulo= styled.div`
     align-items: center;
     justify-content:center;
     gap: 10px;
-
+    padding-bottom: 20px;
     img {
         width: 90px;
         height: 90px;
@@ -129,6 +161,9 @@ export const InfoContactoTitulo= styled.div`
     }
     h2{
         font-size: 23px;
+    }
+    @media (max-width: 1050px) {
+        padding: 0;
     }
     @media (max-width: 768px) {
     h2{

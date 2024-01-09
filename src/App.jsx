@@ -9,16 +9,19 @@ import { ContextCarrito } from './components/contexto/Carrito'
 
 
 
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>  
+        
         <ContextMenu>
         <ContextCarrito>
         <Routes/>
         </ContextCarrito>
         </ContextMenu>
+        
     </>
   )
 }

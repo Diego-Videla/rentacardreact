@@ -53,4 +53,11 @@ img {
 @media (max-width: 768px) {
     gap: 30px;
 }
+@media (max-width: 550px) {
+    img{
+        height: 45px;
+        width: 45px;    
+    }
+    
+}
 `
