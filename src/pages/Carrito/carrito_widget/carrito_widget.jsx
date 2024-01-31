@@ -1,4 +1,5 @@
 import {React,useContext} from "react";
+import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import { CarritoContext } from "../../../components/contexto/Carrito";
 import { CarritoCard } from "../carrito_card/carrito_card";
@@ -15,7 +16,6 @@ export const CarritoWidget=()=>{
     const {precioTotal}= useContext(CarritoContext);
     const[isOpenModal,openModal,CloseModal]=useModal(false);
     const[isOpenModal1,openModal1,CloseModal1]=useModal(false);
-    const[isOpenModal2,openModal2,CloseModal2]=useModal(false);
     const total= precioTotal();
     return(
         <ConteinerCarrito>
@@ -50,24 +50,12 @@ export const CarritoWidget=()=>{
                         <h3>¿Desea finalizar la compra?</h3>
                         </ConteinerTitulo>
                         <ButtonModal>
-                        <button  onClick={()=>
-                        {
-                        borrarTodo();
-                        CloseModal1();
-                        openModal2();
-                        }
-                        } >Si</button>
+                        < NavLink className="botonmodal" to='/checkout' onClick={()=>CloseModal1()} > Si</NavLink>
+                        
                         <button onClick={()=>CloseModal1()}>No</button>
                         </ButtonModal>
                 </Modal>
-                <Modal isOpen={isOpenModal2} CloseModal={CloseModal2}>
-                        <ConteinerTitulo>
-                        <h3>¡Muchas gracias por su compra!</h3>
-                        </ConteinerTitulo>
-                        <ButtonModal>
-                        <button onClick={()=>CloseModal2()}>Aceptar</button>
-                        </ButtonModal>
-                </Modal>
+           
             </Conteinerbutton>
             </ConteinerCompra>
         </ConteinerCarrito>

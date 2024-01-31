@@ -24,6 +24,7 @@ align-items: center;
 justify-content: center;
 gap: 15px;
 margin-bottom: 60px;
+
 ` 
 export const Conteinerbutton=styled.div`
 display: flex;
@@ -32,15 +33,15 @@ align-items: center;
 justify-content: center;
 gap: 10px;
 
-/*button{
+.botonmodal{
+    font-weight: 700;
+    color: #03045e;
     background-color:#00b4d8;
-    width: 300px;
-    height: 38px;
-    color: #f1faee;
-    font-weight: 600;
-    font-size: 22px;
-    padding: 0;
-}*/
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
 `
 export const ButtonCarrito= styled.button`
     background-color:#00b4d8;

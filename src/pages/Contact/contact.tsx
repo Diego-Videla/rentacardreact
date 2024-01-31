@@ -36,7 +36,7 @@ export const Contact =() =>{
             initialValues,
             onSubmit,  
             validationSchema
-        })
+    })
        
     return(
         

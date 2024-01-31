@@ -10,6 +10,7 @@ gap: 50px;
 height: 180px;
 background-color:#00b4d8;
 border-radius: 10px;
+border-style: solid;
 p{
     color: #f1faee;
 }

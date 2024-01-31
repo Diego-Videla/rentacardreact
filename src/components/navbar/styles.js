@@ -8,11 +8,6 @@ display:  flex;
 justify-content:space-between;
 align-items: center;
 padding: 1rem 4rem;
-
-/*position: sticky;
-top: 0;
-z-index: 2;*/
-
 img {
     height: 60px;
     width: 60px;
@@ -89,11 +84,10 @@ width: 60%;
 justify-content: right;
 `
 export const BgDiv= styled.div`
-
 background-color: #03045e;
 position:absolute;
 top:-700px;
-left:-1000px;
+left:-2000px;
 width:100%;
 height:100%;
 transition: all .6s ease;
